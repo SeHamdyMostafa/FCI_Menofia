@@ -1,0 +1,15 @@
+after downloading last version 22/12/2021
+1- Xampp must be installed
+2- create DB called "studentsdatabase" in Xammp
+3- Insert page is ready with most Test Cases "In my Opinion !!"
+4- try to enter any random data and give me a report if the app crashed
+5- 3 class not Accessed from any one
+    1* InsertPage
+    2* SeLevel3Courses
+    3* StudentInfo
+
+/*
+ *
+ */
+
+- as you are going to work on StudentsDataBase class .. Don't touch my Functions !!

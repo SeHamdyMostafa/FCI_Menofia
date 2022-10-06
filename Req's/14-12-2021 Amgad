@@ -1,0 +1,22 @@
+// insert Page is 70 % Finished as Backend
+
+// class called " CustomFunctions "  ->
+ this class will Contain all our Global Customed Function
+that will be used along the Application
+as ("showScene") ->
+ Function used to move to next Scene you want to move for .
+- this Function take 2 parameters
+1- The Button which After Clicking .. you will move to next Scene
+2- the name of the fxml file with extension .fxml
+
+
+ // " JDBC SQL "".. file Contain SQL configrations to made
+  it as built in lib inside our app
+
+ // " StudentInfo " is the calss that will contain
+  the whole informations about each com.example.FCI_Menofia.student
+ and every com.example.FCI_Menofia.student inside the DB will be an object from that class .
+
+
+
+*/

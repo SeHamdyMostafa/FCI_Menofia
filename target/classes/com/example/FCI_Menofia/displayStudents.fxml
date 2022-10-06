@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="583.0" prefWidth="1099.0" scaleShape="false" style="-fx-background-color: #259ce6;"
+            xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.FCI_Menofia.DisplayStudents">
+    <children>
+        <Label layoutX="10.0" layoutY="138.0" prefHeight="42.0" prefWidth="200.0" text="display form" textFill="WHITE">
+            <font>
+                <Font name="Baskerville Old Face" size="34.0"/>
+            </font>
+        </Label>
+        <TableView fx:id="tabel" layoutX="4.0" layoutY="189.0" prefHeight="400.0" prefWidth="1092.0">
+            <columns>
+                <TableColumn fx:id="name" minWidth="0.0" prefWidth="113.0" text="name"/>
+                <TableColumn fx:id="level" minWidth="0.0" prefWidth="68.0" text="level"/>
+                <TableColumn fx:id="department" minWidth="0.0" prefWidth="90.0" text="department"/>
+                <TableColumn fx:id="section" minWidth="0.0" prefWidth="73.0" text="section"/>
+                <TableColumn fx:id="jpa" prefWidth="57.0" text="jpa"/>
+                <TableColumn fx:id="course1" minWidth="0.0" prefWidth="83.0" text="course1"/>
+                <TableColumn fx:id="course2" prefWidth="91.0" text="course2"/>
+                <TableColumn fx:id="course3" prefWidth="82.0" text="course3"/>
+                <TableColumn fx:id="course4" prefWidth="95.0" text="course4"/>
+                <TableColumn fx:id="course5" prefWidth="76.0" text="course5"/>
+                <TableColumn fx:id="course6" prefWidth="91.0" text="course6"/>
+                <TableColumn fx:id="nationalid" prefWidth="172.0" text="national ID"/>
+            </columns>
+        </TableView>
+        <Button fx:id="backToMainPage" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToMainPage"
+                style="-fx-background-color: #ffffff; -fx-background-radius: 50PX;" text=" Back to main page">
+            <font>
+                <Font name="System Bold Italic" size="13.0"/>
+            </font>
+        </Button>
+        <HBox alignment="CENTER" layoutX="214.0" layoutY="130.0" prefHeight="51.0" prefWidth="671.0" spacing="40.0">
+            <children>
+                <Button fx:id="delbutton" mnemonicParsing="false" onAction="#deleteStudentFromDatabase"
+                        prefHeight="30.0" prefWidth="153.0"
+                        style="-fx-background-color: #ffffff; -fx-background-radius: 50PX;" text="delete from database">
+                    <font>
+                        <Font name="System Bold Italic" size="13.0"/>
+                    </font>
+                </Button>
+                <TextField fx:id="nationalIdForDelete" prefHeight="31.0" prefWidth="242.0"
+                           promptText="                 National id"
+                           style="-fx-background-color: #ffffff; -fx-background-radius: 10PX;">
+                    <font>
+                        <Font size="15.0"/>
+                    </font>
+                </TextField>
+            </children>
+        </HBox>
+        <Label layoutX="326.0" layoutY="14.0" prefHeight="115.0" prefWidth="577.0"
+               text="             Student Database &#10;Management Information System" textFill="WHITE">
+            <font>
+                <Font name="Baskerville Old Face" size="33.0"/>
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

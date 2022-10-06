@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="645.0"
+      prefWidth="895.0" style="-fx-background-color: FFFFFF;" xmlns="http://javafx.com/javafx/17"
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.FCI_Menofia.MainPage">
+    <children>
+        <Pane layoutX="3.0" layoutY="303.0" prefHeight="346.0" prefWidth="889.0" style="-fx-background-color: #fcf3e6;">
+            <children>
+                <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="55.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="@assets/display.jpg"/>
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="117.0" fitWidth="200.0" layoutX="238.0" layoutY="56.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="@assets/delete.jpg"/>
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="117.0" fitWidth="200.0" layoutX="456.0" layoutY="55.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="@assets/insert.jpg"/>
+                    </image>
+                </ImageView>
+                <ImageView fitHeight="117.0" fitWidth="200.0" layoutX="675.0" layoutY="55.0" pickOnBounds="true"
+                           preserveRatio="true">
+                    <image>
+                        <Image url="@assets/update.jpg"/>
+                    </image>
+                </ImageView>
+                <Button fx:id="displayButton" layoutX="32.0" layoutY="187.0" mnemonicParsing="false"
+                        onAction="#goToDisplayScreen" prefHeight="49.0" prefWidth="164.0"
+                        style="-fx-background-color: #ffc46b; -fx-background-radius: 25px;" text="Display">
+                    <font>
+                        <Font name="Century" size="27.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="deleteButton" layoutX="266.0" layoutY="186.0" mnemonicParsing="false"
+                        onAction="#goToDeleteScreen" prefHeight="49.0" prefWidth="164.0"
+                        style="-fx-background-color: #ffc46b; -fx-background-radius: 25px;" text="Delete">
+                    <font>
+                        <Font name="Century" size="27.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="insertButton" layoutX="474.0" layoutY="187.0" mnemonicParsing="false"
+                        onAction="#goToInsertScreen" prefHeight="49.0" prefWidth="164.0"
+                        style="-fx-background-color: #ffc46b; -fx-background-radius: 25px;" text="Insert">
+                    <font>
+                        <Font name="Century" size="27.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="updateButton" layoutX="693.0" layoutY="187.0" mnemonicParsing="false"
+                        onAction="#goToUpdateScreen" prefHeight="49.0" prefWidth="164.0"
+                        style="-fx-background-color: #ffc46b; -fx-background-radius: 25px;" text="Update">
+                    <font>
+                        <Font name="Century" size="27.0"/>
+                    </font>
+                </Button>
+                <Button fx:id="searchButton" layoutX="32.0" layoutY="265.0" mnemonicParsing="false"
+                        onAction="#goToSearchButton" prefHeight="49.0" prefWidth="164.0"
+                        style="-fx-background-color: #ffc46b; -fx-background-radius: 25px;" text="Search">
+                    <font>
+                        <Font name="Century" size="27.0"/>
+                    </font>
+                </Button>
+            </children>
+        </Pane>
+        <ImageView fitHeight="264.0" fitWidth="780.0" pickOnBounds="true" preserveRatio="true"/>
+        <ImageView fitHeight="303.0" fitWidth="895.0" opacity="0.83" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@assets/background.jpg"/>
+            </image>
+        </ImageView>
+        <Label layoutX="476.0" layoutY="32.0" prefHeight="170.0" prefWidth="405.0"
+               text="شؤون الطلاب                           &#10;Students Affairs&#10;" textFill="#0c358e">
+            <font>
+                <Font name="Arabic Typesetting" size="56.0"/>
+            </font>
+        </Label>
+        <Label layoutX="459.0" layoutY="163.0" prefHeight="78.0" prefWidth="439.0"
+               text="Student Information and Database" textFill="#518ad9">
+            <font>
+                <Font name="Aldhabi" size="45.0"/>
+            </font>
+        </Label>
+        <Button fx:id="signOutButton" layoutX="14.0" layoutY="17.0" mnemonicParsing="false" onAction="#signOutFunction"
+                style="-fx-background-color: red;" text="Sign out" textFill="WHITE">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+    </children>
+</Pane>

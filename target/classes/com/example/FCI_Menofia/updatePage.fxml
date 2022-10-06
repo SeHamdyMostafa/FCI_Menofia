@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="618.0" prefWidth="669.0" style="-fx-background-color: #259ce6;"
+            xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.FCI_Menofia.UpdatePage">
+    <children>
+        <Label layoutX="238.0" layoutY="7.0" prefHeight="70.0" prefWidth="329.0" text="Update Page" textFill="WHITE">
+            <font>
+                <Font name="Baskerville Old Face" size="32.0"/>
+            </font>
+        </Label>
+        <Button fx:id="backToMainPageButton" layoutX="14.0" layoutY="16.0" mnemonicParsing="false"
+                onAction="#backToMainPage" prefHeight="46.0" prefWidth="150.0" style="-fx-background-radius: 50px;"
+                text="Back to main page">
+            <font>
+                <Font name="System Bold Italic" size="14.0"/>
+            </font>
+        </Button>
+        <HBox alignment="CENTER" layoutX="48.0" layoutY="73.0" prefHeight="46.0" prefWidth="462.0" spacing="35.0">
+            <children>
+                <Label prefHeight="20.0" prefWidth="264.0" text="Enter student national id :" textFill="WHITE">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Label>
+                <TextField fx:id="nationalIdTextField" prefHeight="26.0" prefWidth="254.0" promptText="National id"/>
+                <Button fx:id="getStudentInfo" mnemonicParsing="false" onAction="#getStudentInfoFromDatabase"
+                        prefHeight="26.0" prefWidth="186.0" text="Get Student"/>
+            </children>
+        </HBox>
+        <VBox alignment="CENTER" layoutX="51.0" layoutY="119.0" prefHeight="482.0" prefWidth="462.0"
+              style="-fx-background-color: #f2f9fc; -fx-padding: 20; -fx-background-radius: 25;">
+            <children>
+                <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="447.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="21.0" prefWidth="116.0" text=" Student name :"/>
+                        <TextField fx:id="studentNameTextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student name"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="115.0" text=" Student Level :"/>
+                        <TextField fx:id="studentLevelTextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student level"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="115.0" text=" Student department:"/>
+                        <TextField fx:id="studentDepartmentTextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student department"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="114.0" text=" Student section :"/>
+                        <TextField fx:id="studentSectionTextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student section"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="115.0" text=" Student jpa :"/>
+                        <TextField fx:id="studentJpaTextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student jpa"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="115.0" text=" Student Course1 :"/>
+                        <TextField fx:id="studentCourse1TextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student course1"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="115.0" text=" Student Course2 :"/>
+                        <TextField fx:id="studentCourse2TextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student course2"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="115.0" text=" Student Course3 :"/>
+                        <TextField fx:id="studentCourse3TextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student course3"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="115.0" text=" Student Course4 :"/>
+                        <TextField fx:id="studentCourse4TextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student course4"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="115.0" text=" Student Course5 :"/>
+                        <TextField fx:id="studentCourse5TextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student course5"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="25.0">
+                    <children>
+                        <Label prefHeight="22.0" prefWidth="115.0" text=" Student Course6 :"/>
+                        <TextField fx:id="studentCourse6TextField" prefHeight="26.0" prefWidth="200.0"
+                                   promptText="student course6"/>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <Button fx:id="updateInfoButton" layoutX="539.0" layoutY="557.0" mnemonicParsing="false"
+                onAction="#updateStudentInfo" prefHeight="46.0" prefWidth="116.0" style="-fx-background-radius: 50px;"
+                text="Update Info ">
+            <font>
+                <Font name="System Bold Italic" size="15.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

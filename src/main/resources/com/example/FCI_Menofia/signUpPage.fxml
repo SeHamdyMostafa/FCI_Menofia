@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="397.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.example.FCI_Menofia.signUpAndLogin.SignUpPage">
+    <children>
+        <Label layoutX="569.0" layoutY="27.0" text="Sign Up">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Label>
+        <VBox layoutX="33.0" layoutY="148.0" prefHeight="199.0" prefWidth="573.0">
+            <children>
+                <HBox alignment="CENTER_LEFT" prefHeight="63.0" prefWidth="528.0" spacing="40.0">
+                    <children>
+                        <Label text="First Name :"/>
+                        <TextField fx:id="employeeFirstNameTextField" promptText="First Name"/>
+                        <Label text="Last Name :"/>
+                        <TextField fx:id="employeeLastNameTextField" promptText="Last Name"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="63.0" prefWidth="528.0" spacing="40.0">
+                    <children>
+                        <Label text="User Name :"/>
+                        <TextField fx:id="userNameTextField" promptText="User Name"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="63.0" prefWidth="528.0" spacing="50.0">
+                    <children>
+                        <Label text="Password :"/>
+                        <PasswordField fx:id="passwordTextField" promptText="password"/>
+                    </children>
+                </HBox>
+                <HBox alignment="CENTER_LEFT" prefHeight="63.0" prefWidth="528.0" spacing="5.0">
+                    <children>
+                        <Label text="Confirm Password :"/>
+                        <PasswordField fx:id="confirmPasswordTextField" promptText="confirm password"/>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <Button fx:id="backToLoginPageButton" layoutX="33.0" layoutY="27.0" mnemonicParsing="false"
+                onAction="#backToLoginPageButtonFunction" style="-fx-background-color: red;"
+                text="&lt;- Back to login page" textFill="WHITE"/>
+        <Label layoutX="33.0" layoutY="101.0" text="Add new Employee :">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Label>
+        <Button fx:id="signUpButton" layoutX="632.0" layoutY="334.0" mnemonicParsing="false"
+                onAction="#signUpButtonFunction" style="-fx-background-color: orange;" text="SignUp !"
+                textFill="WHITE"/>
+    </children>
+</AnchorPane>
