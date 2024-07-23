@@ -90,7 +90,7 @@ The University Student Management App is a desktop application designed to facil
 
   4- Insert Page
 
-<img src = "https://github.com/user-attachments/assets/9e7aa269-8c83-452d-8d52-56c3295c72d6" width = 450 height = 350/>     <img src = "https://github.com/user-attachments/assets/51d54fd4-6e11-4b84-b764-c87d835925bb" width = 450 height = 350/>
+<img src = "https://github.com/user-attachments/assets/9e7aa269-8c83-452d-8d52-56c3295c72d6" width = 639 height = 507/>     <img src = "https://github.com/user-attachments/assets/51d54fd4-6e11-4b84-b764-c87d835925bb" width = 639 height = 582/>
 
 
   5- DisPlay and Delete Page
