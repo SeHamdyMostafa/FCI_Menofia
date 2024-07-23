@@ -75,4 +75,41 @@ The University Student Management App is a desktop application designed to facil
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Application Gui
 
+  1- SignUp Page
+
+<img src = "https://github.com/user-attachments/assets/0f2fc849-e6ff-41a5-bff1-e5b4c4fab798" width = 450 height = 450/>
+
+  2- Login Page
+
+<img src = "https://github.com/user-attachments/assets/ffe0b174-5ad8-48fc-81db-7585cf70d509" width = 450 height = 450/>
+
+  3- Main Page
+
+<img src = "https://github.com/user-attachments/assets/62bc6b0e-3a1d-4368-a3a5-2c3febff2bc4" width = 450 height = 450/>
+
+
+  4- Insert Page
+
+<img src = "https://github.com/user-attachments/assets/9e7aa269-8c83-452d-8d52-56c3295c72d6" width = 450 height = 450/><img src = "https://github.com/user-attachments/assets/51d54fd4-6e11-4b84-b764-c87d835925bb" width = 450 height = 450/>
+
+
+  5- DisPlay and Delete Page
+
+<img src = "https://github.com/user-attachments/assets/7a6ec99a-d125-4f06-bf1a-1942482dc7c9" width = 450 height = 450/>
+
+  7- Update Page 
+
+<img src = "https://github.com/user-attachments/assets/f746e3c8-2172-47fc-b0cc-d5e2045380ec" width = 450 height = 450/>
+
+  8- Search Page 
+
+<img src = "https://github.com/user-attachments/assets/81626c0c-7c7e-4c95-a2a1-cdb00d0067b7" width = 450 height = 450/>
+
+
+
+
+  
+
+  
+
 
