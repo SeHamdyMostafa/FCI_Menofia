@@ -72,11 +72,11 @@ The University Student Management App is a desktop application designed to facil
 
        - Enter the student's national ID and update the necessary details.
 
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Application Gui
 
 
-   1- SignUp Page
+    1- SignUp Page
 
 
 <img src = "https://github.com/user-attachments/assets/0f2fc849-e6ff-41a5-bff1-e5b4c4fab798" width = 640 height = 446/>
