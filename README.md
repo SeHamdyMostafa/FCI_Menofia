@@ -77,15 +77,15 @@ The University Student Management App is a desktop application designed to facil
 
   1- SignUp Page
 
-<img src = "https://github.com/user-attachments/assets/0f2fc849-e6ff-41a5-bff1-e5b4c4fab798" width = 500 height = 400/>
+<img src = "https://github.com/user-attachments/assets/0f2fc849-e6ff-41a5-bff1-e5b4c4fab798" width = 640 height = 446/>
 
   2- Login Page
 
-<img src = "https://github.com/user-attachments/assets/ffe0b174-5ad8-48fc-81db-7585cf70d509" width = 500 height = 400/>
+<img src = "https://github.com/user-attachments/assets/ffe0b174-5ad8-48fc-81db-7585cf70d509" width = 640 height = 527/>
 
   3- Main Page
 
-<img src = "https://github.com/user-attachments/assets/62bc6b0e-3a1d-4368-a3a5-2c3febff2bc4" width = 500 height = 400/>
+<img src = "https://github.com/user-attachments/assets/62bc6b0e-3a1d-4368-a3a5-2c3febff2bc4" width = 640 height = 483/>
 
 
   4- Insert Page
