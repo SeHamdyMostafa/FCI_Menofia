@@ -99,7 +99,7 @@ The University Student Management App is a desktop application designed to facil
 
   7- Update Page 
 
-<img src = "https://github.com/user-attachments/assets/f746e3c8-2172-47fc-b0cc-d5e2045380ec" width = 600 height = 450/>
+<img src = "https://github.com/user-attachments/assets/f746e3c8-2172-47fc-b0cc-d5e2045380ec" width = 600 height = 500/>
 
   8- Search Page 
 
