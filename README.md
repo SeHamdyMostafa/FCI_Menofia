@@ -1,13 +1,15 @@
 ## University Student Management App
+
 - Description
+  
 The University Student Management App is a desktop application designed to facilitate the management of student data within universities. It allows the admin to manage personal and academic data of students, including their cumulative GPA, department, level, and the courses they wish to register for each semester.
 
 - Features
+  
   1- Admin Account Creation: The admin creates their own account.
   
   2- Login Page : Admin can login after create account
   
-
   3- Insert Page: Admin adds student details including name, national ID, GPA, section, level, and department for each student.
 
   4- Student Courses: After adding student details, the admin assigns the courses that the student wishes to enroll in for the semester.
@@ -33,31 +35,37 @@ The University Student Management App is a desktop application designed to facil
 
 - Usage
 
-     - Admin Account Creation:
+     1- Admin Account Creation:
   
-       1-Open the application and create an admin account.
+       - Open the application and create an admin account.
 
-       2- Log in using the newly created admin account.
+       - Log in using the newly created admin account.
 
-     - Insert Student Data:
+     2- Insert Student Data:
 
-       1- Navigate to the Insert Page.
+       - Navigate to the Insert Page.
 
-       2-Enter student details including name, national ID, GPA, section, level, and department.
+       -Enter student details including name, national ID, GPA, section, level, and department.
 
-       3-Save the data to move to the Student Courses page.
+       -Save the data to move to the Student Courses page.
 
-     - Assign Courses:
+     3- Assign Courses:
 
-       1- In the Student Courses page, select the courses the student wishes to enroll in for the semester.
+       - In the Student Courses page, select the courses the student wishes to enroll in for the semester.
+
+     4- View Registered Students:
+
+       - Navigate to the Display Page to view all students who have registered.
+       
+     5- Search for a Student:
+
+       - Go to the Search Page and enter the student's national ID to view their details.
 
 
-View Registered Students:
 
-Navigate to the Display Page to view all students who have registered.
-Search for a Student:
 
-Go to the Search Page and enter the student's national ID to view their details.
+
+
 Delete Student Data:
 
 Go to the Delete Page and enter the student's national ID to delete their data.
