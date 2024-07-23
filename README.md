@@ -90,20 +90,20 @@ The University Student Management App is a desktop application designed to facil
 
   4- Insert Page
 
-<img src = "https://github.com/user-attachments/assets/9e7aa269-8c83-452d-8d52-56c3295c72d6" width = 500 height = 400/>  <img src = "https://github.com/user-attachments/assets/51d54fd4-6e11-4b84-b764-c87d835925bb" width = 500 height = 400/>
+<img src = "https://github.com/user-attachments/assets/9e7aa269-8c83-452d-8d52-56c3295c72d6" width = 500 height = 400/>"  "<img src = "https://github.com/user-attachments/assets/51d54fd4-6e11-4b84-b764-c87d835925bb" width = 500 height = 400/>
 
 
   5- DisPlay and Delete Page
 
-<img src = "https://github.com/user-attachments/assets/7a6ec99a-d125-4f06-bf1a-1942482dc7c9" width = 500 height = 400/>
+<img src = "https://github.com/user-attachments/assets/7a6ec99a-d125-4f06-bf1a-1942482dc7c9" width = 600 height = 400/>
 
   7- Update Page 
 
-<img src = "https://github.com/user-attachments/assets/f746e3c8-2172-47fc-b0cc-d5e2045380ec" width = 500 height = 400/>
+<img src = "https://github.com/user-attachments/assets/f746e3c8-2172-47fc-b0cc-d5e2045380ec" width = 600 height = 400/>
 
   8- Search Page 
 
-<img src = "https://github.com/user-attachments/assets/81626c0c-7c7e-4c95-a2a1-cdb00d0067b7" width = 500 height = 400/>
+<img src = "https://github.com/user-attachments/assets/81626c0c-7c7e-4c95-a2a1-cdb00d0067b7" width = 600 height = 400/>
 
 
 
