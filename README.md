@@ -96,7 +96,7 @@ The University Student Management App is a desktop application designed to facil
 
 
 
-<img src = "https://github.com/user-attachments/assets/62bc6b0e-3a1d-4368-a3a5-2c3febff2bc4" width = 640 height = 483/> \n
+<img src = "https://github.com/user-attachments/assets/62bc6b0e-3a1d-4368-a3a5-2c3febff2bc4" width = 640 height = 483/> 
 
 
 
