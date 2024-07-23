@@ -88,7 +88,7 @@ The University Student Management App is a desktop application designed to facil
 
 
 
-<img src = "https://github.com/user-attachments/assets/ffe0b174-5ad8-48fc-81db-7585cf70d509" width = 640 height = 527/>   
+<img src = "https://github.com/user-attachments/assets/ffe0b174-5ad8-48fc-81db-7585cf70d509" width = 640 height = 527/>   <br />
 
 
 
@@ -96,7 +96,7 @@ The University Student Management App is a desktop application designed to facil
 
 
 
-<img src = "https://github.com/user-attachments/assets/62bc6b0e-3a1d-4368-a3a5-2c3febff2bc4" width = 640 height = 483/>   
+<img src = "https://github.com/user-attachments/assets/62bc6b0e-3a1d-4368-a3a5-2c3febff2bc4" width = 640 height = 483/>   <br />
 
 
 
@@ -113,7 +113,7 @@ The University Student Management App is a desktop application designed to facil
 
 
 
-<img src = "https://github.com/user-attachments/assets/7a6ec99a-d125-4f06-bf1a-1942482dc7c9" width = 639 height = 360/>  
+<img src = "https://github.com/user-attachments/assets/7a6ec99a-d125-4f06-bf1a-1942482dc7c9" width = 639 height = 360/>  <br />
 
 
 
@@ -121,7 +121,7 @@ The University Student Management App is a desktop application designed to facil
 
 
 
-<img src = "https://github.com/user-attachments/assets/f746e3c8-2172-47fc-b0cc-d5e2045380ec" width = 640 height = 624/>   
+<img src = "https://github.com/user-attachments/assets/f746e3c8-2172-47fc-b0cc-d5e2045380ec" width = 640 height = 624/>   <br />
 
 
 
@@ -129,7 +129,7 @@ The University Student Management App is a desktop application designed to facil
 
 
 
-<img src = "https://github.com/user-attachments/assets/81626c0c-7c7e-4c95-a2a1-cdb00d0067b7" width = 640 height = 340/>   
+<img src = "https://github.com/user-attachments/assets/81626c0c-7c7e-4c95-a2a1-cdb00d0067b7" width = 640 height = 340/>   <br />
 
 
 
