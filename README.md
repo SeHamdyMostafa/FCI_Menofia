@@ -4,6 +4,7 @@
   
 The University Student Management App is a desktop application designed to facilitate the management of student data within universities. It allows the admin to manage personal and academic data of students, including their cumulative GPA, department, level, and the courses they wish to register for each semester.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Features
   
   1- Admin Account Creation: The admin creates their own account.
@@ -22,7 +23,7 @@ The University Student Management App is a desktop application designed to facil
 
   8- Update Page: Admin can update the details of any previously registered student.
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 - Technologies Used
 
@@ -32,7 +33,7 @@ The University Student Management App is a desktop application designed to facil
 
   3- MySQL: Used for storing student data and managing the database.
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 - Usage
 
      1- Admin Account Creation:
@@ -45,9 +46,9 @@ The University Student Management App is a desktop application designed to facil
 
        - Navigate to the Insert Page.
 
-       -Enter student details including name, national ID, GPA, section, level, and department.
+       - Enter student details including name, national ID, GPA, section, level, and department.
 
-       -Save the data to move to the Student Courses page.
+       - Save the data to move to the Student Courses page.
 
      3- Assign Courses:
 
@@ -61,15 +62,17 @@ The University Student Management App is a desktop application designed to facil
 
        - Go to the Search Page and enter the student's national ID to view their details.
 
+     6- Delete Student Data:
+
+       - Go to the Delete Page and enter the student's national ID to delete their data.
+
+     7- Update Student Data:
+
+       - Navigate to the Update Page.
+
+       - Enter the student's national ID and update the necessary details.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- Application Gui
 
 
-
-
-
-Delete Student Data:
-
-Go to the Delete Page and enter the student's national ID to delete their data.
-Update Student Data:
-
-Navigate to the Update Page.
-Enter the student's national ID and update the necessary details.
